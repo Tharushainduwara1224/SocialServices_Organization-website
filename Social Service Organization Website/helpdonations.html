@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="donations_style.css">
+ <meta name="viewpoint" content="width=device-width; initial scale=1.0">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div id="header">
+<h3>"Api Mithuro" Disaster relief Services Organization</h3>
+</div>
+<h1>Helps & Donations</h1>
+<form action="send1.php" method="post">
+     <table border="0"  cellpadding="10">
+		<tr>
+			<td>Name: </td>
+			<td><input type="text" style="width:500px;" name="name" placeholder="Name"/></td>
+		</tr>
+	<tr>			  
+	<td>NIC Number :</td>
+	<td><input type="text" style="width:500px;" name="nic" placeholder="Enter Your NIC Number"/></td><br><br>
+	</tr>
+	<tr>
+	<td>Your occuption :</td> 
+	<td><input type="text" style="width:500px;"name="occuption" placeholder="Enter Your occuption"/></td>
+	</tr>
+	<tr>
+		<td>How did you know about our Society?Organization :</td>
+		  <td><input type="radio" name="knowabout" value="socialmedia"/>Social Media
+					  <input type="radio" name="knowabout" value="newpapers"/>New papers
+					  <input type="radio" name="knowabout" value="relations"/>Relations
+					  <input type="radio" name="knowabout" value="handbills"/>Handbills
+			</td>		 
+		</tr>
+	<tr>
+	<td>Contact Number : </td>
+	<td><input type="number" style="width:500px;" name="contactnumber" placeholder="Mobile or Land Phone Number"/></td>
+	</tr>
+	<tr>
+	<td>Email Address : </td>
+	<td><input type="email" style="width:500px;" name="emailaddress" placeholder="Enter Your Email Address" /></td>
+	</tr>
+	<tr>
+	<td>Bank Name : </td>
+	<td><input type="text" style="width:500px;" name="bankname" placeholder="Type the bank for paying fees"/></td>
+	</tr>
+	<tr>
+	<td>upload a bankslip with file : </td>
+	<td><input type="file" style="width:500px; font-size:20px;" id="myfile" name="myfile" /></td>
+	</tr>
+	<tr>
+	<td>Choose Payment Field : </td>
+	<td><select style="width:200px; font-size:20px;" name="paymenttype">
+		<option>Blood Donation Compaigns</option>
+		<option>Natural Disaster Relief Services Projects</option>
+		<option>Environmnet Development Projects</option>
+		<option>Rural Area Development projects</option>
+		<option>Medical Clinics projects</option>
+		<option>School based Projects</option>
+	              </select></td>
+	</tr>
+	<tr>
+	<td>Amount : </td>
+	<td><input type="text" style="width:300px;"name="moneyamount" placeholder="Enter the amount"/>&nbsp;&nbsp;&nbsp;<select style="width:175px;" name="feestype">
+	                                                     <option>LKR</option>
+				                                         <option>USD</option>
+													  </select></td>
+    </tr>
+	<tr>
+          <td>Comments:</td>
+		  <td><textarea name="msg" placeholder="Enter Your Comment" cols="65" rows="10"></textarea></td>
+
+	</tr>
+	<tr>
+	<td></td>
+	<td> 
+	
+	<button onclick="myFunction()">Submit</button>
+	 <p id="demo"></p>
+	 <script>
+	 function myFunction() {
+	   document.getElementByld("demo").innerHTML="new.html";
+	 }
+	 </script>
+	 </td>
+	 <td>
+	 <input type = "reset" class="last1">
+	 </td>
+	 </tr>
+	</table>
+	
+</form>
+<br>  
+<div id="footer">
+<h3>Copy Right 2021 l All Rights Reserved</h3>
+<p>"Api Mithuro" Disaster relief Services Organization,No:45/A,Ccolombo Road,Maradana. &nbsp;&nbsp;&nbsp;&nbsp; info@apimithuro.ac.lk &nbsp;&nbsp;&nbsp;&nbsp; +94110555578</p>
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+</div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="tellusquestion_style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div id="header">
+<h3>"Api Mithuro" Disaster relief Services Organization</h3>
+</div>
+<h1>Tell Us Your Questions</h1>
+<form action="send2.php" method="post">
+     <table border="0"  cellpadding="10">
+		<tr>
+			<td>Name : </td>
+			<td><input type="text" style="width:500px;" name="name" placeholder="Enter Your Name"/></td>
+			</tr>
+	<tr>			  
+	<td>Email Address:</td>
+	<td><input type="email" style="width:500px;" name="emailaddress" placeholder="Enter Your Email Address"/></td><br><br>
+	</tr>
+	<tr>
+	<td>Contact Number:</td> 
+	<td><input type="number" style="width:500px;"name="contactnumber" placeholder="Enter your Contact Number"/></td>
+	</tr>
+	
+	<tr>
+	<td>What is the field for question type :</td>
+	<td>
+	<select style="width:500px; font-size:18px;" name="questiontype">
+			  <option>Personality</option>
+                <option>Natural Disaster Damages</option>
+                <option>Rural Area lack facilities problems</option>
+			    <option>Difficulties in obtaining drinking water</option>
+				<option>National common issues</option>
+				<option>Shool- based and hospital-based problems</option>
+				<option>Shool- based and hospital-based problems</option>
+	</select>
+	</td>
+	</tr>
+	<tr>
+		<td>Comments:</td>
+		<td><textarea name="msg" placeholder="Enter Your Comment" cols="65" rows="10"></textarea></td>
+
+  </tr>
+	
+	<td></td>
+	<td> 
+	
+	<button onclick="myFunction()">Submit</button>
+	 <p id="demo"></p>
+	 <script>
+	 function myFunction() {
+	   document.getElementByld("demo").innerHTML="new.html";
+	 }
+	 </script>
+	 </td>
+	 <td>
+	 <input type = "reset" class="last1">
+	 </td>
+	 </tr>
+	</table>
+	
+</form>
+<br>  
+<div id="footer">
+<h3>Copy Right 2021 l All Rights Reserved</h3>
+<p>BiYoGo Campus,No:45/A,Ccolombo Road,Maradana. &nbsp;&nbsp;&nbsp;&nbsp; head@biyogo.ac.lk &nbsp;&nbsp;&nbsp;&nbsp; +94110555578</p>
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+</div>
+</body>
+</html>
